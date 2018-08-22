@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09927482212D0D5E0090C41C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927481212D0D5E0090C41C /* AppDelegate.swift */; };
+		09927484212D0D5E0090C41C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927483212D0D5E0090C41C /* ViewController.swift */; };
+		09927487212D0D5E0090C41C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09927485212D0D5E0090C41C /* Main.storyboard */; };
+		09927489212D0D630090C41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09927488212D0D630090C41C /* Assets.xcassets */; };
+		0992748C212D0D630090C41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0992748A212D0D630090C41C /* LaunchScreen.storyboard */; };
+		09927496212D0DF20090C41C /* URL+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927495212D0DF20090C41C /* URL+Helper.swift */; };
+		09927498212D0E070090C41C /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927497212D0E070090C41C /* PhotoInfo.swift */; };
+		0992749A212D0E230090C41C /* PhotoInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927499212D0E230090C41C /* PhotoInfoManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0992747E212D0D5E0090C41C /* SiriPlanetsShortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriPlanetsShortcut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09927481212D0D5E0090C41C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09927483212D0D5E0090C41C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09927486212D0D5E0090C41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09927488212D0D630090C41C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0992748B212D0D630090C41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0992748D212D0D630090C41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09927495212D0DF20090C41C /* URL+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helper.swift"; sourceTree = "<group>"; };
+		09927497212D0E070090C41C /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		09927499212D0E230090C41C /* PhotoInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0992747B212D0D5E0090C41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09927475212D0D5E0090C41C = {
+			isa = PBXGroup;
+			children = (
+				09927480212D0D5E0090C41C /* SiriPlanetsShortcut */,
+				0992747F212D0D5E0090C41C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0992747F212D0D5E0090C41C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0992747E212D0D5E0090C41C /* SiriPlanetsShortcut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09927480212D0D5E0090C41C /* SiriPlanetsShortcut */ = {
+			isa = PBXGroup;
+			children = (
+				09927494212D0DDB0090C41C /* Models */,
+				09927493212D0DD40090C41C /* Helpers */,
+				09927481212D0D5E0090C41C /* AppDelegate.swift */,
+				09927483212D0D5E0090C41C /* ViewController.swift */,
+				09927485212D0D5E0090C41C /* Main.storyboard */,
+				09927488212D0D630090C41C /* Assets.xcassets */,
+				0992748A212D0D630090C41C /* LaunchScreen.storyboard */,
+				0992748D212D0D630090C41C /* Info.plist */,
+			);
+			path = SiriPlanetsShortcut;
+			sourceTree = "<group>";
+		};
+		09927493212D0DD40090C41C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				09927495212D0DF20090C41C /* URL+Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		09927494212D0DDB0090C41C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09927497212D0E070090C41C /* PhotoInfo.swift */,
+				09927499212D0E230090C41C /* PhotoInfoManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0992747D212D0D5E0090C41C /* SiriPlanetsShortcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09927490212D0D630090C41C /* Build configuration list for PBXNativeTarget "SiriPlanetsShortcut" */;
+			buildPhases = (
+				0992747A212D0D5E0090C41C /* Sources */,
+				0992747B212D0D5E0090C41C /* Frameworks */,
+				0992747C212D0D5E0090C41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriPlanetsShortcut;
+			productName = SiriPlanetsShortcut;
+			productReference = 0992747E212D0D5E0090C41C /* SiriPlanetsShortcut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09927476212D0D5E0090C41C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "James Rochabrun";
+				TargetAttributes = {
+					0992747D212D0D5E0090C41C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 09927479212D0D5E0090C41C /* Build configuration list for PBXProject "SiriPlanetsShortcut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09927475212D0D5E0090C41C;
+			productRefGroup = 0992747F212D0D5E0090C41C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0992747D212D0D5E0090C41C /* SiriPlanetsShortcut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0992747C212D0D5E0090C41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0992748C212D0D630090C41C /* LaunchScreen.storyboard in Resources */,
+				09927489212D0D630090C41C /* Assets.xcassets in Resources */,
+				09927487212D0D5E0090C41C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0992747A212D0D5E0090C41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09927498212D0E070090C41C /* PhotoInfo.swift in Sources */,
+				09927484212D0D5E0090C41C /* ViewController.swift in Sources */,
+				0992749A212D0E230090C41C /* PhotoInfoManager.swift in Sources */,
+				09927482212D0D5E0090C41C /* AppDelegate.swift in Sources */,
+				09927496212D0DF20090C41C /* URL+Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09927485212D0D5E0090C41C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09927486212D0D5E0090C41C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0992748A212D0D630090C41C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0992748B212D0D630090C41C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0992748E212D0D630090C41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0992748F212D0D630090C41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09927491212D0D630090C41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
+				INFOPLIST_FILE = SiriPlanetsShortcut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlintappexample.SiriPlanetsShortcut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09927492212D0D630090C41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
+				INFOPLIST_FILE = SiriPlanetsShortcut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlintappexample.SiriPlanetsShortcut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09927479212D0D5E0090C41C /* Build configuration list for PBXProject "SiriPlanetsShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0992748E212D0D630090C41C /* Debug */,
+				0992748F212D0D630090C41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09927490212D0D630090C41C /* Build configuration list for PBXNativeTarget "SiriPlanetsShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09927491212D0D630090C41C /* Debug */,
+				09927492212D0D630090C41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09927476212D0D5E0090C41C /* Project object */;
+}
