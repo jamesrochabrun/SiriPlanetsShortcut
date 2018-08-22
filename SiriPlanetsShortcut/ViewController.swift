@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import Intents
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var planetView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,6 +25,8 @@ class ViewController: UIViewController {
                 self.updateUI(with: photoInfo)
             }
         }
+        /// Donate
+        donateInteraction()
     }
     
     func updateUI(with photoInfo: PhotoInfo) {
@@ -37,10 +42,34 @@ class ViewController: UIViewController {
             DispatchQueue.main.async {
                 UIApplication.shared.isNetworkActivityIndicatorVisible = false
                 
-                self.title = photoInfo.title
+                self.titleLabel.text = photoInfo.title
                 self.planetView.image = image
             }
         }
     }
 }
 
+/// MARK:- Donation
+extension ViewController {
+    
+    func donateInteraction() {
+        
+        let intent = PhotoOfTheDayIntent()
+        
+        intent.suggestedInvocationPhrase = "Energize"
+        
+        let interaction = INInteraction(intent: intent, response: nil)
+        
+        interaction.donate { error in
+            
+            guard let localError = error else { return }
+            guard let err = localError as NSError? else {
+                print("Successfully donated interaction")
+                return
+            }
+            print("ERROR -> \(err)")
+        }
+    }
+    
+    
+}

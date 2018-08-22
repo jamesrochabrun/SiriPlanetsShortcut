@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094BFF1F212D10A800B89912 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 094BFF1E212D10A800B89912 /* Intents.intentdefinition */; };
+		094BFF20212D119000B89912 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 094BFF1E212D10A800B89912 /* Intents.intentdefinition */; };
+		094BFF21212D119000B89912 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 094BFF1E212D10A800B89912 /* Intents.intentdefinition */; };
+		094BFF24212D180900B89912 /* PhotoOfTheDayHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BFF23212D180900B89912 /* PhotoOfTheDayHandler.swift */; };
+		094BFF25212D18BB00B89912 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927497212D0E070090C41C /* PhotoInfo.swift */; };
+		094BFF26212D18BB00B89912 /* PhotoInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927499212D0E230090C41C /* PhotoInfoManager.swift */; };
+		094BFF27212D18BB00B89912 /* URL+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927495212D0DF20090C41C /* URL+Helper.swift */; };
+		094BFF28212D18BB00B89912 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927497212D0E070090C41C /* PhotoInfo.swift */; };
+		094BFF29212D18BB00B89912 /* PhotoInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927499212D0E230090C41C /* PhotoInfoManager.swift */; };
+		094BFF2A212D18BB00B89912 /* URL+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927495212D0DF20090C41C /* URL+Helper.swift */; };
+		094BFF2B212D19CC00B89912 /* PhotoOfTheDayHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BFF23212D180900B89912 /* PhotoOfTheDayHandler.swift */; };
+		094BFF2C212D19CD00B89912 /* PhotoOfTheDayHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BFF23212D180900B89912 /* PhotoOfTheDayHandler.swift */; };
 		09927482212D0D5E0090C41C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927481212D0D5E0090C41C /* AppDelegate.swift */; };
 		09927484212D0D5E0090C41C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927483212D0D5E0090C41C /* ViewController.swift */; };
 		09927487212D0D5E0090C41C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09927485212D0D5E0090C41C /* Main.storyboard */; };
@@ -15,9 +27,49 @@
 		09927496212D0DF20090C41C /* URL+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927495212D0DF20090C41C /* URL+Helper.swift */; };
 		09927498212D0E070090C41C /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927497212D0E070090C41C /* PhotoInfo.swift */; };
 		0992749A212D0E230090C41C /* PhotoInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09927499212D0E230090C41C /* PhotoInfoManager.swift */; };
+		099274A3212D10040090C41C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099274A2212D10040090C41C /* IntentHandler.swift */; };
+		099274AC212D10040090C41C /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099274AB212D10040090C41C /* IntentsUI.framework */; };
+		099274AF212D10040090C41C /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099274AE212D10040090C41C /* IntentViewController.swift */; };
+		099274B2212D10040090C41C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099274B0212D10040090C41C /* MainInterface.storyboard */; };
+		099274B6212D10040090C41C /* SpacePhotoIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 099274A9212D10040090C41C /* SpacePhotoIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		099274B9212D10040090C41C /* SpacePhotoIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 099274A0212D10030090C41C /* SpacePhotoIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		099274B4212D10040090C41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09927476212D0D5E0090C41C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 099274A8212D10040090C41C;
+			remoteInfo = SpacePhotoIntentUI;
+		};
+		099274B7212D10040090C41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09927476212D0D5E0090C41C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0992749F212D10030090C41C;
+			remoteInfo = SpacePhotoIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		099274C0212D10040090C41C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				099274B9212D10040090C41C /* SpacePhotoIntent.appex in Embed App Extensions */,
+				099274B6212D10040090C41C /* SpacePhotoIntentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		094BFF1E212D10A800B89912 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		094BFF23212D180900B89912 /* PhotoOfTheDayHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoOfTheDayHandler.swift; sourceTree = "<group>"; };
 		0992747E212D0D5E0090C41C /* SiriPlanetsShortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriPlanetsShortcut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09927481212D0D5E0090C41C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09927483212D0D5E0090C41C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +80,15 @@
 		09927495212D0DF20090C41C /* URL+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helper.swift"; sourceTree = "<group>"; };
 		09927497212D0E070090C41C /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 		09927499212D0E230090C41C /* PhotoInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoManager.swift; sourceTree = "<group>"; };
+		0992749B212D0FC80090C41C /* SiriPlanetsShortcut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriPlanetsShortcut.entitlements; sourceTree = "<group>"; };
+		099274A0212D10030090C41C /* SpacePhotoIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpacePhotoIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		099274A2212D10040090C41C /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		099274A4212D10040090C41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099274A9212D10040090C41C /* SpacePhotoIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpacePhotoIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		099274AB212D10040090C41C /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		099274AE212D10040090C41C /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		099274B1212D10040090C41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		099274B3212D10040090C41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,13 +99,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0992749D212D10030090C41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099274A6212D10040090C41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099274AC212D10040090C41C /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094BFF22212D17F400B89912 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				094BFF23212D180900B89912 /* PhotoOfTheDayHandler.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		09927475212D0D5E0090C41C = {
 			isa = PBXGroup;
 			children = (
+				094BFF1E212D10A800B89912 /* Intents.intentdefinition */,
 				09927480212D0D5E0090C41C /* SiriPlanetsShortcut */,
+				099274A1212D10040090C41C /* SpacePhotoIntent */,
+				099274AD212D10040090C41C /* SpacePhotoIntentUI */,
+				099274AA212D10040090C41C /* Frameworks */,
 				0992747F212D0D5E0090C41C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				0992747E212D0D5E0090C41C /* SiriPlanetsShortcut.app */,
+				099274A0212D10030090C41C /* SpacePhotoIntent.appex */,
+				099274A9212D10040090C41C /* SpacePhotoIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +150,8 @@
 		09927480212D0D5E0090C41C /* SiriPlanetsShortcut */ = {
 			isa = PBXGroup;
 			children = (
+				094BFF22212D17F400B89912 /* Resources */,
+				0992749B212D0FC80090C41C /* SiriPlanetsShortcut.entitlements */,
 				09927494212D0DDB0090C41C /* Models */,
 				09927493212D0DD40090C41C /* Helpers */,
 				09927481212D0D5E0090C41C /* AppDelegate.swift */,
@@ -89,6 +181,33 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		099274A1212D10040090C41C /* SpacePhotoIntent */ = {
+			isa = PBXGroup;
+			children = (
+				099274A2212D10040090C41C /* IntentHandler.swift */,
+				099274A4212D10040090C41C /* Info.plist */,
+			);
+			path = SpacePhotoIntent;
+			sourceTree = "<group>";
+		};
+		099274AA212D10040090C41C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				099274AB212D10040090C41C /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		099274AD212D10040090C41C /* SpacePhotoIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				099274AE212D10040090C41C /* IntentViewController.swift */,
+				099274B0212D10040090C41C /* MainInterface.storyboard */,
+				099274B3212D10040090C41C /* Info.plist */,
+			);
+			path = SpacePhotoIntentUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,15 +218,52 @@
 				0992747A212D0D5E0090C41C /* Sources */,
 				0992747B212D0D5E0090C41C /* Frameworks */,
 				0992747C212D0D5E0090C41C /* Resources */,
+				099274C0212D10040090C41C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				099274B5212D10040090C41C /* PBXTargetDependency */,
+				099274B8212D10040090C41C /* PBXTargetDependency */,
 			);
 			name = SiriPlanetsShortcut;
 			productName = SiriPlanetsShortcut;
 			productReference = 0992747E212D0D5E0090C41C /* SiriPlanetsShortcut.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0992749F212D10030090C41C /* SpacePhotoIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099274BD212D10040090C41C /* Build configuration list for PBXNativeTarget "SpacePhotoIntent" */;
+			buildPhases = (
+				0992749C212D10030090C41C /* Sources */,
+				0992749D212D10030090C41C /* Frameworks */,
+				0992749E212D10030090C41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpacePhotoIntent;
+			productName = SpacePhotoIntent;
+			productReference = 099274A0212D10030090C41C /* SpacePhotoIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		099274A8212D10040090C41C /* SpacePhotoIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099274BA212D10040090C41C /* Build configuration list for PBXNativeTarget "SpacePhotoIntentUI" */;
+			buildPhases = (
+				099274A5212D10040090C41C /* Sources */,
+				099274A6212D10040090C41C /* Frameworks */,
+				099274A7212D10040090C41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpacePhotoIntentUI;
+			productName = SpacePhotoIntentUI;
+			productReference = 099274A9212D10040090C41C /* SpacePhotoIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -120,6 +276,17 @@
 				ORGANIZATIONNAME = "James Rochabrun";
 				TargetAttributes = {
 					0992747D212D0D5E0090C41C = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					0992749F212D10030090C41C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					099274A8212D10040090C41C = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -138,6 +305,8 @@
 			projectRoot = "";
 			targets = (
 				0992747D212D0D5E0090C41C /* SiriPlanetsShortcut */,
+				0992749F212D10030090C41C /* SpacePhotoIntent */,
+				099274A8212D10040090C41C /* SpacePhotoIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +322,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0992749E212D10030090C41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099274A7212D10040090C41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099274B2212D10040090C41C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -160,15 +344,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094BFF1F212D10A800B89912 /* Intents.intentdefinition in Sources */,
 				09927498212D0E070090C41C /* PhotoInfo.swift in Sources */,
 				09927484212D0D5E0090C41C /* ViewController.swift in Sources */,
 				0992749A212D0E230090C41C /* PhotoInfoManager.swift in Sources */,
 				09927482212D0D5E0090C41C /* AppDelegate.swift in Sources */,
+				094BFF24212D180900B89912 /* PhotoOfTheDayHandler.swift in Sources */,
 				09927496212D0DF20090C41C /* URL+Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0992749C212D10030090C41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094BFF25212D18BB00B89912 /* PhotoInfo.swift in Sources */,
+				094BFF2B212D19CC00B89912 /* PhotoOfTheDayHandler.swift in Sources */,
+				094BFF20212D119000B89912 /* Intents.intentdefinition in Sources */,
+				094BFF26212D18BB00B89912 /* PhotoInfoManager.swift in Sources */,
+				094BFF27212D18BB00B89912 /* URL+Helper.swift in Sources */,
+				099274A3212D10040090C41C /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099274A5212D10040090C41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094BFF28212D18BB00B89912 /* PhotoInfo.swift in Sources */,
+				094BFF2C212D19CD00B89912 /* PhotoOfTheDayHandler.swift in Sources */,
+				094BFF21212D119000B89912 /* Intents.intentdefinition in Sources */,
+				094BFF29212D18BB00B89912 /* PhotoInfoManager.swift in Sources */,
+				094BFF2A212D18BB00B89912 /* URL+Helper.swift in Sources */,
+				099274AF212D10040090C41C /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		099274B5212D10040090C41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 099274A8212D10040090C41C /* SpacePhotoIntentUI */;
+			targetProxy = 099274B4212D10040090C41C /* PBXContainerItemProxy */;
+		};
+		099274B8212D10040090C41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0992749F212D10030090C41C /* SpacePhotoIntent */;
+			targetProxy = 099274B7212D10040090C41C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		09927485212D0D5E0090C41C /* Main.storyboard */ = {
@@ -185,6 +410,14 @@
 				0992748B212D0D630090C41C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		099274B0212D10040090C41C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099274B1212D10040090C41C /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -307,10 +540,13 @@
 		09927491212D0D630090C41C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiriPlanetsShortcut/SiriPlanetsShortcut.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQ45U4X9K3;
 				INFOPLIST_FILE = SiriPlanetsShortcut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,16 +561,95 @@
 		09927492212D0D630090C41C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiriPlanetsShortcut/SiriPlanetsShortcut.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQ45U4X9K3;
 				INFOPLIST_FILE = SiriPlanetsShortcut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlintappexample.SiriPlanetsShortcut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		099274BB212D10040090C41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
+				INFOPLIST_FILE = SpacePhotoIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlintappexample.SiriPlanetsShortcut.SpacePhotoIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		099274BC212D10040090C41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
+				INFOPLIST_FILE = SpacePhotoIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlintappexample.SiriPlanetsShortcut.SpacePhotoIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		099274BE212D10040090C41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
+				INFOPLIST_FILE = SpacePhotoIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlintappexample.SiriPlanetsShortcut.SpacePhotoIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		099274BF212D10040090C41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
+				INFOPLIST_FILE = SpacePhotoIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlintappexample.SiriPlanetsShortcut.SpacePhotoIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -357,6 +672,24 @@
 			buildConfigurations = (
 				09927491212D0D630090C41C /* Debug */,
 				09927492212D0D630090C41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099274BA212D10040090C41C /* Build configuration list for PBXNativeTarget "SpacePhotoIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099274BB212D10040090C41C /* Debug */,
+				099274BC212D10040090C41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099274BD212D10040090C41C /* Build configuration list for PBXNativeTarget "SpacePhotoIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099274BE212D10040090C41C /* Debug */,
+				099274BF212D10040090C41C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
